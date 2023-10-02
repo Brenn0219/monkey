@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"./token"
+	"token"
 )
 
 type Lexer struct {
@@ -34,7 +34,7 @@ func (l *Lexer) NextToken() token.Token {
 
 	switch l.ch {
 	case '=':
-		tok = newToken(token.ASSIGN, l.ch)
+		tok = newToken(token.ASSING, l.ch)
 	case ';':
 		tok = newToken(token.SEMICOLON, l.ch)
 	case '(':
