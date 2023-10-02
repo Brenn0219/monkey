@@ -7,4 +7,4 @@ O analisador lexico conhecido como *lexer* analisa caracter por caracter identif
 * readPosition - ponteiro para a proxima posicao a ser lida
 * ch - caracter atualmente sendo lido
 
-`NextToken()` e o metodo principal onde analisamos toda o codigo e identificando os tokens. Este metodo e composto outros metodos como `skipWhitespace()` para ignorar os espacos, `newToken()` gera uma estrutura de token assim que identifica um, `isLetter()` e `isDigit()` verifica se e letra e numero e `readChar()` que le o proximo caracter do codigo que esta sendo analisado.
+`NextToken()` e o metodo principal onde analisamos toda o codigo e identificando os tokens. Este metodo e composto outros metodos como `skipWhitespace()` para ignorar os espacos, `newToken()` gera uma estrutura de token assim que identifica um, `isLetter()` e `isDigit()` verifica se e letra e numero e `readChar()` que le o proximo caracter do codigo que esta sendo analisado. O metodo `peekChar()` ele e parecido com o metodo readChar(), diferenciando que ele nao incrementa o position e o readPoistion. Muitos interpretadores tem metodos para "espiar" no futuro do codigo ou no passado.
