@@ -1,6 +1,6 @@
 # Tokens
 
-Para podermos trabalhar em nossos códigos precisamos transforma-los de em formas mais acessíveis, como um texto por exemplo, quando lemos textos existem alguns processos que já são automático que nem percebemos como: ler a palavra, entender seu significado, entende-la com outras palavras e ainda saber interpreta-las com as regras gramáticais. Os interpretadores são da mesma formaa as *palavras* nesse caso são chamadas de **tokens**  e processo de entende-las é chamado de **análise lexical** ou **lexing**. 
+Para podermos trabalhar em nossos códigos precisamos transforma-los de em formas mais acessíveis, como um texto por exemplo, quando lemos textos existem alguns processos que já são automático que nem percebemos como: ler a palavra, entender seu significado, entende-la com outras palavras e ainda saber interpreta-las com as regras gramáticais. Os interpretadores são da mesma forma as *palavras* nesse caso são chamadas de **tokens**  e processo de entende-las é chamado de **análise lexical** ou **lexing**. 
 
 No código `token.go` foram criados alguns tokens:
 
@@ -24,6 +24,6 @@ No código `token.go` foram criados alguns tokens:
 * LBRACE = "{"
 * RBRACE = "}"
 
-*** Palavras Chaves ***
+***Palavras Chaves***
 * FUNCTION = funcoes
 * LET = variaveis
