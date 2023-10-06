@@ -1,0 +1,3 @@
+# AST
+
+Na maioria dos interpretadores e compiladores, a estrutura de dados usada para a representação interna do código-fonte é chamada de "árvore de sintaxe" ou "árvore de sintaxe abstrata" (AST, na sigla em inglês). O "abstrato" se baseia no fato de que alguns detalhes visíveis no código-fonte são omitidos no AST. Ponto e vírgulas, quebras de linha, espaços em branco, comentários, chaves, colchetes e parênteses - dependendo da linguagem e do parser, esses detalhes não são representados no AST, mas apenas orientam o parser ao construí-lo.

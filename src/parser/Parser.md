@@ -1,0 +1,5 @@
+# Parser
+
+Um parser é um componente de software que recebe dados de entrada (frequentemente texto) e cria uma estrutura de dados - frequentemente uma árvore de análise, uma árvore de sintaxe abstrata ou outra estrutura hierárquica - fornecendo uma representação estrutural da entrada, verificando a sintaxe correta no processo. O parser é frequentemente precedido por um analisador léxico separado, que cria tokens a partir da sequência de caracteres de entrada.
+
+Existem duas estratégias principais ao analisar uma linguagem de programação: análise ascendente (top-down parsing) ou análise descendente (bottom-up parsing). O parser escrito do interpretador da linguagem Monkey é descendente recursivo. E, em particular, é um parser de "precedência de operador ascendente", às vezes chamado de "parser Pratt", em homenagem ao seu inventor, Vaughan Pratt. A diferença entre parsers ascendentes e descendentes é que o primeiro começa construindo o nó raiz da AST e depois desce, enquanto o último faz o contrário.
